@@ -5,7 +5,7 @@ import "./Auth.css"; // Import styling
 
 const LoginPage = () => {
     // State variables for email & password input fields
-    const [email, setEmail] = useState("");
+    const [email, setEmail] = useState ("");
     const [password, setPassword] = useState("");
     const navigate = useNavigate(); // Hook for navigation
 

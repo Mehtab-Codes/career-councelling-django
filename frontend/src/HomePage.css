@@ -13,7 +13,7 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
     padding: 20px;
     position: relative;
@@ -29,16 +29,17 @@
     height: auto;
     border-radius: 10px;
     margin-bottom: 10px;
-    align-self: left;
+   
   }
   
   h1 {
-    color: #333;
-    font-size: 2rem;
+    color: #4909ec !important;
+        font-size: 2rem;
+    
   }
   
   p {
-    color: #666;
+    color: #000000;
     font-size: 1rem;
     max-width: 80%;
   }

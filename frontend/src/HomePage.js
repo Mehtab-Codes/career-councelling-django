@@ -1,11 +1,12 @@
+
 import "./HomePage.css";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import sampleImage from "./assets/Logo.png"; // Ensure the image path is correct
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";// Importing navigation hook to handle route changes 
 
 const HomePage = () => {
-  const navigate = useNavigate(); // Add this line
+  const navigate = useNavigate(); // useNavigate() hook helps redirection to other pages
 
   return (
     <div className="home-container">
